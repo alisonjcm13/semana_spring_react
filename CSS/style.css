@@ -68,10 +68,8 @@ padding: 40px 0 ;
 }
 
 .dsmovie-card{
-   width: 360px;
-   height: 400px;
-  
-
+   width: 100%;
+    
 }
 
 .dsmovie-card img{
@@ -81,12 +79,13 @@ padding: 40px 0 ;
 
 .dsmovie-card-description {
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     border-radius: 0 0 8px 8px;
-
+    min-height: 150px;
 
 }
 
@@ -94,6 +93,7 @@ padding: 40px 0 ;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .dsmovie-btn {
