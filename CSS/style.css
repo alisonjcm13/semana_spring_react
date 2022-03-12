@@ -7,6 +7,8 @@
     --color-primary: #4D41C0;
     --white: #fff;
     --text-light-gray:#aaa;
+    --star-yellow: #FFBB3A;
+
 }
 
 * {
@@ -86,7 +88,7 @@ padding: 40px 0 ;
     justify-content: space-between;
     align-items: center;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    min-height: 220px;
 
 }
 
@@ -131,6 +133,29 @@ border-radius: 0 0 8px 8px;
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.dsmovie-card-description-buttom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dsmovie-card-description-buttom h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.dsmovie-card-description-buttom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom:10px ;
+}
+
+.dsmovie-card-description-buttom img{
+width: 22px;
+
 }
 
 .dsmovie-form{
